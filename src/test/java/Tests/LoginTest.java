@@ -25,16 +25,16 @@ public class LoginTest extends BasePage {
       test.skip("Skip the test");
      throw new SkipException("Skipped the Test");
     }
-//    
-//    @Test
-//    public void loginSuccessTest2() {
-////        // Create page objects
-//   	
-//    	
-//        LoginPage loginPage = new LoginPage(page);
-//
-//        
-//        loginPage.login("ajithkumar1598.", "Digival@123");
-//        test.fail("Test is failed");
-//    }
+    
+   @Test
+    public void loginSuccessTest2() {
+       // Create page objects
+   	
+    	
+        LoginPage loginPage = new LoginPage(page);
+
+        
+        loginPage.login("ajithkumar1598.", "Digival@123");
+        test.fail("Test is failed");
+   }
 }
